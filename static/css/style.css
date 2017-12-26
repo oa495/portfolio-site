@@ -21,10 +21,13 @@
   height: fit-content;
 }
 
+.w-max {
+  width: max-content;
+}
+
 .w-fit {
   width: fit-content;
 }
-
 .scroll {
   overflow-y: scroll; 
 }
@@ -32,3 +35,4 @@
 .no-scroll {
   overflow: hidden;
 }
+
