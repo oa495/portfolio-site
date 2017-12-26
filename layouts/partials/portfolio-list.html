@@ -1,0 +1,9 @@
+<ul class="h-fit db pa0 ma0 flex flex-wrap list">
+{{ range $.Site.Data.projects}}
+	<li class=" ma3 db w-25 h-25">
+		<span class="dib f6 pa1">{{ .year }}</span>
+		<a href="{{ .url}}" class="w-fit bb b--white animate-white no-underline f5 open-sans ma1 db">{{ .title }}</a>
+		<span class="dib barlow pa1">{{ .description }}</span>
+	</li>
+{{ end }}
+</ul>

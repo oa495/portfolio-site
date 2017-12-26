@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ block "title" . }}
+      {{ .Site.Title }}
+    {{ end }}</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Barlow:300,300i|Open+Sans+Condensed:700" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.0/css/tachyons.min.css"/>
+  </head>
+  <body class="white barlow bg-black">
+    {{ block "main" . }}
+      <!-- The part of the page that begins to differ between templates -->
+    {{ end }}
+  </body>
+</html>

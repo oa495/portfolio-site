@@ -1,0 +1,34 @@
+{{ define "main" }}
+    <div class="fl w-50 vh-100 mt4 pa4 scroll">
+      <section>
+        <ul class="list fr">
+          {{ partial "links.html" . }}
+        </ul>
+        <h1 class="f2 lh-title open-sans glitch">hi, my name is Yeli.</h1>
+        {{ partial "bio.html" . }}
+      </section>
+      <section>
+        <h2 class="f4 open-sans">Selected Projects</h2>
+        {{ partial "portfolio-list.html" . }}
+      </section>
+      <section class="f6 lh-copy">
+        <h2 class="f4 open-sans">Talks</h2>
+        <ul class="list pa0">
+          {{ range $.Site.Data.talks}}
+            {{ partial "spoken-written.html" . }}
+          {{ end }}
+        </ul>
+        <h2 class="f4 open-sans">Writing / Press</h2>
+         <ul class="list pa0">
+          {{ range $.Site.Data.written}}
+            {{ partial "spoken-written.html" . }}
+          {{ end }}
+        </ul>
+      </section>
+    </div>
+    <div class="fl w-50 vh-100 no-scroll">
+      <section>
+        {{ partial "graphic.html" . }}
+      </section>
+    </div>
+{{ end }}

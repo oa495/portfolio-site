@@ -1,0 +1,69 @@
+[
+	{
+		"title": "Flatline",
+		"description": "A visualization of your social media presence as an electrocardiogram.",
+		"year": "2016",
+		"img-url": "images/flatline.png",
+		"url": "https://flat-line.herokuapp.com"
+	},
+	{
+		"title": "On my Radar",
+		"description": "Visualization of your weekly schedule.",
+		"year": "2016",
+		"img-url": "images/onmyradar.png",
+		"url": "https://onmyradar.herokuapp.com"
+	},
+	{
+		"title": "You snooze you lose",
+		"description": "",
+		"year": "2015",
+		"img-url": "images/snoozeyoulose.png",
+		"url": "https://github.com/oa495/snoozeyoulose"
+	},
+	{
+		"title": "Can you leave work?",
+		"description": "Satirizing silicon valley company perks.",
+		"year": "2017",
+		"url": "https://oa495.github.io/canyouleavework"
+	},
+	{
+		"title": "Y-Fi",
+		"description": "Experience UI Loading elements in different wifi speeds.",
+		"year": "2017",
+		"url": "https://oa495.github.io/YFi/"
+	},
+	{
+		"title": "My President Is",
+		"description": "A bot that tweets who or what my President is.",
+		"year": "2017",
+		"url": "https://twitter.com/MyPresidentIs"
+	},
+	{
+		"title": "The Typic Witches",
+		"description": "Digital book about 3 black witches.",
+		"year": "2017",
+		"img-url": "images/typicwitches.png",
+		"url": "http://thetypicwitches.com"	
+	},
+	{
+		"title": "Henrietta",
+		"description": "",
+		"year": "2015",
+		"img-url": "images/henrietta.png",
+		"url": "http://oa495.github.io/henrietta/"	
+	},
+	{
+		"title": "Startup Week",
+		"description": "Site for Tech@NYU Startup week: a week of hacking, designing, networking, and learning with the best and brightest in NYC tech.",
+		"year": "2016",
+		"img-url": "images/startupweek.png",
+		"url": "http://s2016.nyusw.com/"	
+	},
+	{
+		"title": "Tech@NYU Calendar",
+		"description": "Site for Startup week: a week of hacking, designing, networking, and learning with the best and brightest in NYC tech.",
+		"year": "2016",
+		"img-url": "images/startupweek.png",
+		"url": "http://cal.techatnyu.org/"	
+	}
+]

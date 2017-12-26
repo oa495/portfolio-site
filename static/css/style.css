@@ -1,0 +1,34 @@
+.barlow {
+  font-family: 'Barlow';
+}
+
+.open-sans {
+  font-family: 'Open Sans Condensed'
+}
+
+.animate-white {
+  background: black;
+  color: white;
+  transition: background .15s ease-in-out;
+}
+
+.animate-white:hover {
+  background: white;
+  color: black;
+}
+
+.h-fit {
+  height: fit-content;
+}
+
+.w-fit {
+  width: fit-content;
+}
+
+.scroll {
+  overflow-y: scroll; 
+}
+
+.no-scroll {
+  overflow: hidden;
+}
