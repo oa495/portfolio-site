@@ -4,6 +4,7 @@
 		"description": "A visualization of your social media presence as an electrocardiogram.",
 		"year": "2016",
 		"imgUrl": "images/flatline.png",
+		"altText": "Flatline electrocardiogram visualization",
 		"url": "https://flat-line.herokuapp.com"
 	},
 	{
@@ -11,6 +12,7 @@
 		"description": "Visualization of your weekly schedule.",
 		"year": "2016",
 		"imgUrl": "images/onmyradar.png",
+		"altText": "On my radar landing page",
 		"url": "https://onmyradar.herokuapp.com"
 	},
 	{
@@ -18,6 +20,7 @@
 		"description": "Bad things can happen when you don't wake up to the sound of your alarm.",
 		"year": "2015",
 		"imgUrl": "images/snoozeyoulose.png",
+		"altText": "You snooze you lose landing page",
 		"url": "https://github.com/oa495/snoozeyoulose"
 	},
 	{
@@ -25,6 +28,7 @@
 		"description": "Satirizing silicon valley company perks.",
 		"year": "2017",
 		"imgUrl": "images/can-you-leave-work.gif",
+		"altText": "Can you leave work landing page",
 		"url": "https://oa495.github.io/canyouleavework"
 	},
 	{
@@ -32,6 +36,7 @@
 		"description": "Experience UI Loading elements in different wifi speeds.",
 		"year": "2017",
 		"imgUrl": "images/whyfi.gif",
+		"altText": "Example loading UI on Y-Fi",
 		"url": "https://oa495.github.io/YFi/"
 	},
 	{
@@ -45,6 +50,7 @@
 		"description": "Digital book about 3 black witches.",
 		"year": "2017",
 		"imgUrl": "images/typicwitches.png",
+		"altText": "TypicWitches landing page",
 		"url": "http://thetypicwitches.com"	
 	},
 	{
@@ -52,6 +58,7 @@
 		"description": "",
 		"year": "2015",
 		"imgUrl": "images/henrietta.png",
+		"altText": "Henrietta project homepage",
 		"url": "http://oa495.github.io/henrietta/"	
 	},
 	{
@@ -59,6 +66,7 @@
 		"description": "Site for Tech@NYU Startup week: a week of hacking, designing, networking, and learning with the best and brightest in NYC tech.",
 		"year": "2016",
 		"imgUrl": "images/startupweek.png",
+		"altText": "Startupweek landing page",
 		"url": "http://s2016.nyusw.com/"	
 	},
 	{
@@ -66,6 +74,7 @@
 		"description": "Site for Startup week: a week of hacking, designing, networking, and learning with the best and brightest in NYC tech.",
 		"year": "2016",
 		"imgUrl": "images/techatnyu_cal.png",
+		"altText": "Tech@NYU Calendar homepage",
 		"url": "http://cal.techatnyu.org/"	
 	}
 ]
