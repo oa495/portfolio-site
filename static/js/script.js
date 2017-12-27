@@ -13,6 +13,7 @@ function addEventListeners() {
 	}
 	projects.addEventListener('mouseover', toggleDisplay);
 	projects.addEventListener('mouseout', toggleDisplay);
+	projects.addEventListener('keyup', toggleDisplay);
 }
 
 function draw(ctx) {

@@ -1,10 +1,10 @@
 {{ define "main" }}
-    <div class="fl w-100 w-50-ns vh-100 mt3 pa4 scroll">
-      <section class="mb5">
+    <div class="fl w-100 w-50-ns vh-100 mt4 pa4 scroll">
+      <section class="mb4">
         <ul class="list fr">
           {{ partial "links.html" . }}
         </ul>
-        <h1 class="f2 lh-title open-sans glitch">hi, my name is Yeli.</h1>
+        <h1 class="f2 lh-title open-sans">hi, my name is Yeli.</h1>
         {{ partial "bio.html" . }}
       </section>
       <section>
@@ -12,13 +12,13 @@
         {{ partial "portfolio-list.html" . }}
       </section>
       <section class="lh-copy">
-        <h2 class="f4 open-sans pa0 ma0">Talks</h2>
+        <h2 class="f4 open-sans pa0 mt4">Talks</h2>
         <ul class="list pa0 pb2 ma0">
           {{ range $.Site.Data.talks}}
             {{ partial "spoken-written.html" . }}
           {{ end }}
         </ul>
-        <h2 class="f4 open-sans pa0 ma0">Writing / Press</h2>
+        <h2 class="f4 open-sans pa0 mt4">Writing / Press</h2>
          <ul class="list pa0 pb2 ma0">
           {{ range $.Site.Data.written}}
             {{ partial "spoken-written.html" . }}
@@ -26,7 +26,7 @@
         </ul>
       </section>
     </div>
-    <div class="fl w-100 w-50-ns vh-100 no-scroll">
+    <div class="w-100 w-50-ns vh-100 no-scroll">
       <section>
         {{ partial "graphic.html" . }}
       </section>

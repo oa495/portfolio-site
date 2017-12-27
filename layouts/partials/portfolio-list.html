@@ -1,6 +1,6 @@
 <ul class="h-fit db pa0 ma0 flex flex-wrap justify-between list projects">
 {{ range sort $.Site.Data.projects "year" "desc"}}
-	<li class="db w-40 h-25 mb3">
+	<li class="db w-40 h-25 mb4">
 		<span class="dib f6 pa1">{{ .year }}</span>
 		<a href="{{ .url}}" class="w-max bb b--white animate-white no-underline f5 open-sans ma1 db">{{ .title }}</a>
 		<span class="dib barlow pa1">{{ .description }}</span>
