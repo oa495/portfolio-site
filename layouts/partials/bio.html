@@ -1,6 +1,15 @@
+{{ $list := ($.Site.Data.links.otherLinks) }}
+{{ $len := (len $list) }}
 <div class="f5 lh-copy measure">
   <p>Or Omayeli if you're feeling brave. I’m a designer and developer currently working as a Software Engineer at LinkedIn on the design systems team.</p>
-	<p>I graduated from New York University in 2017 with an individualized degree in Computer Science, Art and Design. I have previously worked at Siberia and Control Group / Intersection. I am an alum of Tech@NYU, Code2040, and data.4.change. 
-
-	<p>I consider myself a creative technologist. Right now I'm playing around with twitter bots and panda for data analysis. In addition to the typical, you can find me on goodreads, glitch, dev.to, medium and my newsletter!</p>
+	<p>I graduated from New York University in 2017 with an individualized degree in Computer Science, Art and Design. I have previously worked at Siberia and Control Group / Intersection. I am an alum of 
+	{{ $.Site.Params.this }}
+	<p>I consider myself a creative technologist. Right now I'm playing around with twitter bots and panda for data analysis. In addition to the typical, you can find me on {{ range $index, $element := $list }}
+    {{ if eq (add $index 1) $len }}
+			and <a class="animate-white bb b--white no-underline" href="{{ .url }}">{{ .title }}.
+		{{ else }}
+			<a class="animate-white bb b--white no-underline" href="{{ .url }}">{{ .title }},  
+		{{ end }}
+		</a>&nbsp;
+	{{ end }}
 </div>
