@@ -14,13 +14,13 @@
       <section class="lh-copy">
         <h2 class="f4 open-sans pa0 mt4">Talks</h2>
         <ul class="list pa0 pb2 ma0">
-          {{ range $.Site.Data.talks}}
+          {{ range sort $.Site.Data.talks "year" "desc"}}
             {{ partial "spoken-written.html" . }}
           {{ end }}
         </ul>
         <h2 class="f4 open-sans pa0 mt4">Writing / Press</h2>
          <ul class="list pa0 pb2 ma0">
-          {{ range $.Site.Data.written}}
+          {{ range sort $.Site.Data.written "year" "desc"}}
             {{ partial "spoken-written.html" . }}
           {{ end }}
         </ul>
