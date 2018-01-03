@@ -38,5 +38,32 @@
 			"title": "my newsletter",
 			"url": "https://tinyletter.com/yeli"
 		}
+	],
+	"alum": [
+		{
+			"name": "Tech@NYU",
+			"url": "https://techatnyu.org"
+		},
+		{
+			"name": "Code2040",
+			"url": "http://www.code2040.org"
+		},
+		{
+			"name": "data.4.change",
+			"url": "http://www.data4chan.ge"
+		}
+	],
+	"prevWork" : [
+		{
+			"name": "Siberia", 
+			"url": "http://www.siberia.io"
+		}, 
+		{
+			"name": "Control Group / Intersection",
+			"url": "https://www.intersection.com"
+		}
+	],
+	"playingWith": [
+		{ "name": "twitter bots", "url": "https://twitter.com/EvenItBot" }, { "name": "panda for data analysis" }
 	]
 }

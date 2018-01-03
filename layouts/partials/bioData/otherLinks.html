@@ -1,0 +1,11 @@
+{{ $otherLinks := ($.Site.Data.links.otherLinks) }}
+{{ $lenOtherLinks := (len $otherLinks) }}
+
+In addition to the typical, you can find me on {{ range $index, $element := $otherLinks }}
+	{{ if eq (add $index 1) $lenOtherLinks }}
+		and <a class="animate-white bb b--white no-underline" href="{{ .url }}">{{ .title }}.
+	{{ else }}
+		<a class="animate-white bb b--white no-underline" href="{{ .url }}">{{ .title }},  
+	{{ end }}
+	</a>&nbsp;
+{{ end }}

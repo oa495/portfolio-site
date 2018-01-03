@@ -1,0 +1,21 @@
+{{ $playingWith := ($.Site.Data.links.playingWith) }}
+{{ $lenPlayingWith := (len $playingWith) }}
+
+Right now I'm playing around with 
+{{ range $index, $element := $playingWith }}
+	{{if .url }}
+		<a class="animate-white bb b--white no-underline" href="{{ .url }}">
+	    {{ if eq (add $index 1) $lenPlayingWith }}
+	    	and {{ .name }}.
+			{{ else }}
+				{{ .name }}&nbsp;
+			{{ end }}
+		</a>
+	{{ else }}
+		 {{ if eq (add $index 1) $lenPlayingWith }}
+	    	and {{ .name }}.
+			{{ else }}
+				{{ .name }}&nbsp;
+			{{ end }}
+	{{ end }}
+{{ end }}

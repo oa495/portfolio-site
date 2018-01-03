@@ -1,0 +1,11 @@
+{{ $alum := ($.Site.Data.links.alum) }}
+{{ $lenAlum := (len $alum) }}
+
+I am an alum of {{ range $index, $element := $alum }}
+	{{ if eq (add $index 1) $lenAlum }}
+		and <a class="animate-white bb b--white no-underline" href="{{ .url }}">{{ .name }}.
+	{{ else }}
+		<a class="animate-white bb b--white no-underline" href="{{ .url }}">{{ .name }},  
+	{{ end }}
+	</a>&nbsp;
+{{ end }}
