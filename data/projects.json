@@ -5,7 +5,8 @@
 		"year": "2016",
 		"imgUrl": "images/flatline.png",
 		"altText": "Flatline electrocardiogram visualization",
-		"url": "https://flat-line.herokuapp.com"
+		"url": "https://flat-line.herokuapp.com",
+		"tags": ["webapp"]
 	},
 	{
 		"title": "On my Radar",
@@ -13,15 +14,8 @@
 		"year": "2016",
 		"imgUrl": "images/onmyradar.png",
 		"altText": "On my radar landing page",
-		"url": "https://onmyradar.herokuapp.com"
-	},
-	{
-		"title": "You snooze you lose",
-		"description": "Bad things can happen when you don't wake up to the sound of your alarm.",
-		"year": "2015",
-		"imgUrl": "images/snoozeyoulose.png",
-		"altText": "You snooze you lose landing page",
-		"url": "https://github.com/oa495/snoozeyoulose"
+		"url": "https://onmyradar.herokuapp.com",
+		"tags": ["webapp"]
 	},
 	{
 		"title": "Can you leave work?",
@@ -29,7 +23,8 @@
 		"year": "2017",
 		"imgUrl": "images/can-you-leave-work.gif",
 		"altText": "Can you leave work landing page",
-		"url": "https://oa495.github.io/canyouleavework"
+		"url": "https://oa495.github.io/canyouleavework",
+		"tags": ["static", "website"]
 	},
 	{
 		"title": "Y-Fi",
@@ -37,13 +32,15 @@
 		"year": "2017",
 		"imgUrl": "images/whyfi.gif",
 		"altText": "Example loading UI on Y-Fi",
-		"url": "https://oa495.github.io/YFi/"
+		"url": "https://oa495.github.io/YFi/",
+		"tags": ["static", "website"]
 	},
 	{
 		"title": "My President Is",
 		"description": "A bot that tweets who or what my President is.",
 		"year": "2017",
-		"url": "https://twitter.com/MyPresidentIs"
+		"url": "https://twitter.com/MyPresidentIs",
+		"tags": ["bot"]
 	},
 	{
 		"title": "The Typic Witches",
@@ -51,7 +48,8 @@
 		"year": "2017",
 		"imgUrl": "images/typicwitches.png",
 		"altText": "TypicWitches landing page",
-		"url": "http://thetypicwitches.com"	
+		"url": "http://thetypicwitches.com",
+		"tags": ["static", "website"]
 	},
 	{
 		"title": "Henrietta",
@@ -59,7 +57,8 @@
 		"year": "2015",
 		"imgUrl": "images/henrietta.png",
 		"altText": "Henrietta project homepage",
-		"url": "http://oa495.github.io/henrietta/"	
+		"url": "http://oa495.github.io/henrietta/",
+		"tags": ["static", "website"]		
 	},
 	{
 		"title": "Startup Week",
@@ -67,7 +66,8 @@
 		"year": "2016",
 		"imgUrl": "images/startupweek.png",
 		"altText": "Startupweek landing page",
-		"url": "http://s2016.nyusw.com/"	
+		"url": "http://s2016.nyusw.com/",
+		"tags": ["visual", "techatnyu"]		
 	},
 	{
 		"title": "Tech@NYU Calendar",
@@ -75,6 +75,7 @@
 		"year": "2016",
 		"imgUrl": "images/techatnyu_cal.png",
 		"altText": "Tech@NYU Calendar homepage",
-		"url": "http://cal.techatnyu.org/"	
+		"url": "http://cal.techatnyu.org/",
+		"tags": ["visual", "techatnyu"]	
 	}
 ]
