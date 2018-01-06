@@ -6,14 +6,15 @@ function addEventListeners() {
 		if (projectLink && projectLink.nodeName == 'A') {
 			var img = projectLink.parentElement.querySelector('.portfolio-img');
 			if (img) {
-				img.classList.toggle('display');
-        canvas.classList.toggle('dn');
+        setTimeout(function() {
+          img.classList.toggle('display');
+          canvas.classList.toggle('hide');
+        }, 350);
 			}
 		}
 	}
 	projects.addEventListener('mouseover', toggleDisplay);
 	projects.addEventListener('mouseout', toggleDisplay);
-	projects.addEventListener('keyup', toggleDisplay);
 }
 
 function init() {

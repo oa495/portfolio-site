@@ -279,14 +279,15 @@ div, section {
 .open-sans {
   font-family: 'Open Sans Condensed'
 }
-.portfolio-img {
+.portfolio-img, .canvas-container.hide {
   visibility: hidden;
   opacity: 0;
   transition: visibility 0s, opacity 0.5s linear;
 }
-.portfolio-img.display {
+.portfolio-img.display, .canvas-container  {
   visibility: visible;
   opacity: 1;
+  transition: visibility 0s, opacity 0.5s linear;
 }
 .animate-white {
   background-color: black;
