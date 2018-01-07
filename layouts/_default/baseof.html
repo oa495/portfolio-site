@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ block "title" . }}
       {{ .Site.Title }}
     {{ end }}</title>
@@ -14,6 +15,5 @@
       <!-- The part of the page that begins to differ between templates -->
     {{ end }}
   </body>
-  <script type="text/javascript" src="js/fabric.min.js"></script>
-  <script type="text/javascript" src="js/script.js"></script>
+  <script async type="text/javascript" src="js/script.js"></script>
 </html>
