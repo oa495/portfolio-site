@@ -179,11 +179,6 @@ div, section {
  .w-auto-l { width: auto; }
 }
 
-/* max-width */
-.mw5 { max-width: 16rem; }
-.mw6 { max-width: 32rem; }
-.mw7 { max-width: 48rem; }
-
 @media screen and (min-width: 30em) {
  .mw-100-ns { max-width: 100%; }
  .mw1-ns { max-width: 1rem; }
@@ -279,7 +274,18 @@ div, section {
 .open-sans {
   font-family: 'Open Sans Condensed'
 }
-.portfolio-img, .canvas-container.hide {
+.portfolio-img {
+  pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
+  top: 0;
+  left: 50%;
+  min-width: 30%;
+  max-width: 50%;
+  transform: scale(0.98);
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 0.3s ease-in-out;
+}
+.canvas-container.hide {
   visibility: hidden;
   opacity: 0;
   transition: visibility 0s, opacity 0.5s linear;

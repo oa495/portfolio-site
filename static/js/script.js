@@ -1,20 +1,30 @@
 function addEventListeners() {
-	var projects = document.getElementsByClassName('projects')[0];
-	function toggleDisplay(e) {
+	var projectList = document.getElementsByClassName('projects')[0];
+  function toggleDisplay(e) {
     var canvas = document.getElementsByClassName('canvas-container')[0];
 		var projectLink = e.target;
 		if (projectLink && projectLink.nodeName == 'A') {
-			var img = projectLink.parentElement.querySelector('.portfolio-img');
-			if (img) {
-        setTimeout(function() {
-          img.classList.toggle('display');
-          canvas.classList.toggle('hide');
-        }, 350);
-			}
+      var img = projectLink.parentElement.querySelector('.portfolio-img');
+      if (img) {
+        if (e.type == 'mouseover') {
+          var container = document.getElementsByClassName('right-container')[0];
+          var containerW = container.offsetWidth;
+          var containerH = container.offsetHeight;
+          var size = Math.floor(Math.random() * (50 - 30 + 1)) + 30;
+          var posX = (Math.random() * (50 - size));
+          var maxH = ((containerH - img.offsetHeight) / (containerH + img.offsetHeight)) * 100;
+          var posY = (Math.random() * maxH);
+          img.setAttribute('width', size + '%');
+          img.style.marginLeft = posX + '%';
+          img.style.marginTop = posY + '%';
+        }
+        img.classList.toggle('display');
+        canvas.classList.toggle('hide');
+      }
 		}
 	}
-	projects.addEventListener('mouseover', toggleDisplay);
-	projects.addEventListener('mouseout', toggleDisplay);
+	projectList.addEventListener('mouseover', toggleDisplay);
+	projectList.addEventListener('mouseout', toggleDisplay);
 }
 
 function init() {
