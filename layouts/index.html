@@ -7,24 +7,28 @@
         </ul>
         {{ partial "bio.html" . }}
       </section>
-      <section>
+      <section class="mb4">
         <h2 class="f4 open-sans">Selected Projects</h2>
         {{ partial "portfolio-list.html" . }}
       </section>
-      <section class="lh-copy">
-        <h2 class="f4 open-sans pa0 mt4">Talks</h2>
-        <ul class="list pa0 pb2 ma0">
-          {{ range sort $.Site.Data.talks "year" "desc"}}
-            {{ partial "spoken-written.html" . }}
-          {{ end }}
-        </ul>
-        <h2 class="f4 open-sans pa0 mt4">Writing / Press</h2>
-         <ul class="list pa0 pb2 ma0">
-          {{ range sort $.Site.Data.written "year" "desc"}}
-            {{ partial "spoken-written.html" . }}
-          {{ end }}
-        </ul>
-      </section>
+      <ul class="lh-copy list flex justify-between pa0 ma0">
+        <li class="w-40">
+          <h2 class="f4 open-sans pa0">Talks</h2>
+          <ul class="list pa0 flex flex-column">
+            {{ range sort $.Site.Data.talks "year" "desc"}}
+              {{ partial "spoken-written.html" . }}
+            {{ end }}
+          </ul>
+        </li>
+        <li class="w-40">
+          <h2 class="f4 open-sans pa0">Writing / Press</h2>
+          <ul class="list pa0 flex flex-column">
+            {{ range sort $.Site.Data.written "year" "desc"}}
+              {{ partial "spoken-written.html" . }}
+            {{ end }}
+          </ul>
+        </li>
+      </ul>
     </div>
     <div class="right-container w-100 w-50-ns vh-100 no-scroll">
       <section>

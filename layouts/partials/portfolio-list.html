@@ -2,7 +2,7 @@
 {{ range sort $.Site.Data.projects "year" "desc"}}
 	<li class="db w-40 h-25 mb4">
 		<span class="dib f6 pc1">{{ .year }}</span>
-		<a href="{{ .url}}" class="w-max bb b--white animate-white no-underline f5 open-sans mv1 db">{{ .title }}</a>
+		<a href="{{ .url}}" class="w-fit bb b--white animate-white no-underline f5 open-sans mv1 db">{{ .title }}</a>
 		<span class="dib barlow pv1">{{ .description }}</span>
 		{{ if .imgUrl }}
 			<aside>
