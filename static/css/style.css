@@ -13,17 +13,17 @@ div, section {
 
 /* spacing */
 .pa0 { padding: 0; }
-.pa1 { padding: .25rem; }
-.pa2 { padding: .5rem; }
 .pa4 { padding: 2rem; }
+.pv1 { padding-top: .25rem; padding-bottom: .25rem; }
 .pv2 { padding-top: .5rem; padding-bottom: .5rem; }
+.pb3 { padding-bottom: 1rem; }
 
 .ma0 { margin: 0; }
-.ma1 { margin: .25rem; }
 .ma2 { margin: .5rem; }
 .mb4 { margin-bottom: 2rem; }
 .mt4 { margin-top: 2rem; }
 .mh4 { margin-left: 2rem; margin-right: 2rem; }
+.mv1 { margin-top: .25rem; margin-bottom: .25rem; }
 
 /* links */
 
@@ -96,6 +96,16 @@ div, section {
   max-width: 50%;
   transform: scale(0.98);
   transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 0.3s ease-in-out;
+}
+.canvas-container.hide {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+.portfolio-img.display, .canvas-container  {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s, opacity 0.5s linear;
 }
 .animate-white {
   background-color: black;
