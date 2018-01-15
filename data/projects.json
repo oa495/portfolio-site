@@ -28,7 +28,7 @@
 	},
 	{
 		"title": "Y-Fi",
-		"description": "Experience UI Loading elements in different wifi speeds.",
+		"description": "Experience UI Loading elements in the wifi speeds of different countries.",
 		"year": "2017",
 		"imgUrl": "images/whyfi.gif",
 		"altText": "Example loading UI on Y-Fi",
@@ -41,15 +41,6 @@
 		"year": "2017",
 		"url": "https://twitter.com/MyPresidentIs",
 		"tags": ["bot"]
-	},
-	{
-		"title": "The Typic Witches",
-		"description": "Digital book about 3 black witches.",
-		"year": "2017",
-		"imgUrl": "images/typicwitches.png",
-		"altText": "TypicWitches landing page",
-		"url": "http://thetypicwitches.com",
-		"tags": ["static", "website"]
 	},
 	{
 		"title": "Henrietta",

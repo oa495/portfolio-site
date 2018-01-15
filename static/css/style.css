@@ -3,6 +3,7 @@ html, body { height: 100%; }
 body { 
   margin: 0;
   overflow: hidden;
+  background-color: white;
 }
 
 div, section {
@@ -10,7 +11,9 @@ div, section {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
+a:visited {
+  color: white;
+}
 /* spacing */
 .pa0 { padding: 0; }
 .pa4 { padding: 2rem; }
