@@ -87,33 +87,16 @@ div, section {
 .f6 { font-size: .875rem; }
 
 .barlow {
-  font-family: 'Barlow';
+  font-family: 'Barlow', -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 
+                'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial,
+                sans-serif;
 }
 .open-sans {
-  font-family: 'Open Sans Condensed'
+  font-family: 'Open Sans Condensed', -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 
+                'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial,
+                sans-serif;
 }
-.portfolio-img {
-  pointer-events: none;
-  visibility: hidden;
-  opacity: 0;
-  top: 0;
-  left: 50%;
-  min-width: 30%;
-  max-width: 50%;
-  transform: scale(0.98);
-  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 0.3s ease-in-out;
-}
-.canvas-container.hide {
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 0s, opacity 0.5s linear;
-}
-.portfolio-img.display, .canvas-container  {
-  visibility: visible;
-  opacity: 1;
-  transition: visibility 0s, opacity 0.5s linear;
-}
-.animate-white {
+.animate-white, .animate-white:visited {
   background-color: black;
   color: white;
   -webkit-transition: color 1s ease-out;
@@ -121,12 +104,9 @@ div, section {
   -o-transition: color 1s ease-out;
   transition: color 1s ease-out;
 }
-.animate-white:hover {
+.animate-white:hover, .animate-white:visited:hover {
   background-color: white;
   color: black;
-}
-.animate-white:visited {
-  color: white;
 }
 .h-fit {
   height: fit-content;

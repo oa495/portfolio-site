@@ -4,11 +4,6 @@
 		<span class="dib f6 pc1">{{ .year }}</span>
 		<a href="{{ .url}}" class="w-fit bb b--white animate-white no-underline f5 open-sans mv1 db">{{ .title }}</a>
 		<span class="dib barlow pv1">{{ .description }}</span>
-		{{ if .imgUrl }}
-			<aside>
-			{{ partial "portfolio-image.html" . }}
-			</aside>
-		{{ end }}	
 	</li>
 {{ end }}
 </ul>

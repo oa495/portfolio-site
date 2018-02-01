@@ -7,7 +7,7 @@
       {{ .Site.Title }}
     {{ end }}</title>
     <link rel="icon" type="image/png" href="images/logo.png">
-    <link href="https://fonts.googleapis.com/css?family=Barlow:300|Open+Sans+Condensed:700" rel="stylesheet">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Barlow:300|Open+Sans+Condensed:700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body class="white barlow bg-black">
@@ -15,5 +15,6 @@
       <!-- The part of the page that begins to differ between templates -->
     {{ end }}
   </body>
-  <script async type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/fabric.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
 </html>
