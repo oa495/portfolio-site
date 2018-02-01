@@ -21,7 +21,7 @@ function addEventListeners() {
 	  });
 	}
 
-	document.getElementsByClassName('left-container')[0].addEventListener('scroll', function(e) {
+	document.getElementsByTagName('body')[0].addEventListener('scroll', function(e) {
 	  if (!ticking) {
 
 	    window.requestAnimationFrame(function() {
