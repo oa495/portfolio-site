@@ -2,7 +2,6 @@
 html, body { height: 100%; }
 body { 
   margin: 0;
-  overflow: hidden;
   background-color: white;
 }
 
@@ -116,9 +115,7 @@ div, section {
   width: -moz-fit-content;    /* Firefox */
   width: -webkit-fit-content; /* Chrome */
 }
-.scroll {
-  overflow-y: scroll; 
-}
-.no-scroll {
-  overflow: hidden;
+.right-container {
+  left: 50%;
+  position: fixed;
 }
