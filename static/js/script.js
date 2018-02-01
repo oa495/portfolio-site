@@ -21,7 +21,7 @@ function addEventListeners() {
 	  });
 	}
 
-	document.getElementsByTagName('body')[0].addEventListener('scroll', function(e) {
+	window.addEventListener('scroll', function(e) {
 	  if (!ticking) {
 
 	    window.requestAnimationFrame(function() {
@@ -30,8 +30,8 @@ function addEventListeners() {
 	    });
 	     
 	    ticking = true;
-		}
-	});
+	}
+    });
 }
 
 function init() {
