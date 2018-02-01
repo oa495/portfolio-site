@@ -89,11 +89,13 @@ div, section {
   font-family: 'Barlow', -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 
                 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial,
                 sans-serif;
+  font-weight: 300;
 }
 .open-sans {
   font-family: 'Open Sans Condensed', -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 
                 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial,
                 sans-serif;
+  font-weight: 700;
 }
 .animate-white, .animate-white:visited {
   background-color: black;
