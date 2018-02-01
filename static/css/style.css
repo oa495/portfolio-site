@@ -11,9 +11,7 @@ div, section {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-a:visited {
-  color: white;
-}
+
 /* spacing */
 .pa0 { padding: 0; }
 .pa4 { padding: 2rem; }
@@ -126,6 +124,9 @@ a:visited {
 .animate-white:hover {
   background-color: white;
   color: black;
+}
+.animate-white:visited {
+  color: white;
 }
 .h-fit {
   height: fit-content;
