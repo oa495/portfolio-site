@@ -23,15 +23,14 @@ function addEventListeners() {
 
 	window.addEventListener('scroll', function(e) {
 	  if (!ticking) {
-
 	    window.requestAnimationFrame(function() {
 	      rotateShapes();
 	      ticking = false;
 	    });
-	     
+
 	    ticking = true;
-	}
-    });
+		}
+  });
 }
 
 function init() {
@@ -49,4 +48,6 @@ function init() {
 	});
 }
 
-init();
+window.onload = function() {
+  init();
+};
