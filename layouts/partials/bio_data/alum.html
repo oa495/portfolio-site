@@ -3,9 +3,9 @@
 
 I am an alum of {{ range $index, $element := $alum }}
 	{{ if eq (add $index 1) $lenAlum }}
-		and <a class="animate-white bb b--white no-underline" href="{{ .url }}">{{ .name }}.
+		and <a class="animate-white bb b--white no-underline" href="{{ .url }}">{{ .name }}</a>.
 	{{ else }}
-		<a class="animate-white bb b--white no-underline" href="{{ .url }}">{{ .name }},  
+		<a class="animate-white bb b--white no-underline" href="{{ .url }}">{{ .name }}</a>,  
 	{{ end }}
-	</a>&nbsp;
+	&nbsp;
 {{ end }}

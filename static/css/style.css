@@ -5,10 +5,11 @@ body {
   background-color: white;
 }
 
-div, section {
+div, section, ul {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  background: black;
 }
 
 a, a:visited {
@@ -124,4 +125,5 @@ a, a:visited {
 .right-container {
   left: 50%;
   position: fixed;
+  z-index: -999;
 }

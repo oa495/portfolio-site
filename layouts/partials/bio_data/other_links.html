@@ -3,9 +3,9 @@
 
 In addition to the typical, you can find me on {{ range $index, $element := $otherLinks }}
 	{{ if eq (add $index 1) $lenOtherLinks }}
-		and <a class="animate-white bb b--white no-underline" href="{{ .url }}">{{ .title }}.
+		and <a class="animate-white bb b--white no-underline" href="{{ .url }}">{{ .title }}</a>.
 	{{ else }}
-		<a class="animate-white bb b--white no-underline" href="{{ .url }}">{{ .title }},  
+		<a class="animate-white bb b--white no-underline" href="{{ .url }}">{{ .title }}</a>,  
 	{{ end }}
-	</a>&nbsp;
+	&nbsp;
 {{ end }}
