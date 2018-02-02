@@ -12,8 +12,8 @@ div, section {
 }
 
 a, a:visited {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
 }
 /* spacing */
 .pa0 { padding: 0; }
