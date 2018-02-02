@@ -11,6 +11,10 @@ div, section {
   box-sizing: border-box;
 }
 
+a, a:visited {
+  background-color: white;
+  color: black;
+}
 /* spacing */
 .pa0 { padding: 0; }
 .pa4 { padding: 2rem; }
@@ -97,7 +101,7 @@ div, section {
                 sans-serif;
   font-weight: 700;
 }
-.animate-white, .animate-white:visited {
+.animate-white {
   background-color: black;
   color: white;
   -webkit-transition: color 1s ease-out;
