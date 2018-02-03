@@ -78,6 +78,7 @@ a, a:visited {
 
 @media screen and (min-width: 30em) {
  .w-50-ns { width: 50%; }
+ .right-container { z-index: -10; }
 }
 
 /* typography */
@@ -125,5 +126,4 @@ a, a:visited {
 .right-container {
   left: 50%;
   position: fixed;
-  z-index: -999;
 }
