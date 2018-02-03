@@ -1,6 +1,6 @@
 +++
 [twitter]
-  card = "summary"
+  card = "summary_large_image"
   creator = "@YellzHeard"
   title = "Omayeli Arenyeka"
   description = "Website of Omayeli Arenyeka. Art, Design and Code."

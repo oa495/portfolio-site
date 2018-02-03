@@ -2,10 +2,9 @@
 <meta property="og:description" content="Art, Design and Code."/>
 <meta property="og:url" content="https://www.omayeli.com/"/>
 <meta property="og:image" content="https://res.cloudinary.com/dlwnmz6lr/image/upload/v1517553276/Portfolio/Screen_Shot_2018-02-01_at_10.33.41_PM.png"/>
-{{ with .Params.twitter }}
 <meta property="og:type" content="website"/>
+{{ with .Params.twitter }}
 <meta name="twitter:card" content="{{- .card -}}">
-<meta name="twitter:site" content="{{- .site -}}">
 {{ if ne .card "app" -}}
 <meta name="twitter:title" content="{{- .title -}}">
 <meta name="twitter:image" content="{{- .image -}}">
