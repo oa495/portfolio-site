@@ -74,11 +74,11 @@ a, a:visited {
 .h-25 { height: 25%; }
 .vh-100 { height: 100vh; }
 .w-40 { width: 40%; }
-.w-100 { width: 100%; }
+.w-50 {  width:  50%; }
 
-@media screen and (min-width: 30em) {
- .w-50-ns { width: 50%; }
- .right-container { z-index: -10; }
+@media screen and (max-width: 48em) {
+ .w-100-ns { width: 100%; }
+ .right-container { z-index: -1; }
 }
 
 /* typography */
