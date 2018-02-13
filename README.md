@@ -23,7 +23,7 @@ strings etc.
 In 2015 I took an intro to design class at NYU. Our final assignment was to create
 a design for ourselves that included a banner (for twitter etc), a logo, wireframes
 for a website etc. You can still check it out on my
-[behance](https://www.behance.net/gallery/28201389/Personal-Branding)
+[behance](https://www.behance.net/gallery/28201389/Personal-Branding).
 I really liked the banner I made, it's been my twitter banner for 
 some time and I always thought about making it interactive in some way.
 I started out using html5 canvas. I used [AI-Canvas](http://blog.mikeswanson.com/ai2canvas)
