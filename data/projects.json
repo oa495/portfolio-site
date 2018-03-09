@@ -50,11 +50,11 @@
 		"tags": ["bot"]
 	},
 	{
-		"title": "The Typic Witches",
-		"description": "An online book about three girls who find out they're witches on their 22nd birthday. Made using the Magicbook project.",
-		"year": "2017",
-		"url": "https://www.thetypicwitches.com",
-		"tags": ["static", "website"]
+		"title": "Tweeter or Retweeter?",
+		"description": "Tells you, based on your profile if you are a tweeter or retweeter.",
+		"year": "2018",
+		"url": "https://twit-original.glitch.me/",
+		"tags": ["website"]
 	},
 	{
 		"title": "Henrietta",

@@ -11,7 +11,7 @@
         <h2 class="f4 open-sans">Selected Projects</h2>
         {{ partial "portfolio-list.html" . }}
       </section>
-      <ul class="lh-copy list flex justify-between pa0 ma0 bg-black">
+      <ul class="lh-copy list flex justify-between pa0 ma0 bg-black flex-wrap">
         <li class="w-40">
           <h2 class="f4 open-sans pa0">Talks</h2>
           <ul class="list pa0 flex flex-column">
@@ -21,7 +21,15 @@
           </ul>
         </li>
         <li class="w-40">
-          <h2 class="f4 open-sans pa0">Writing / Press</h2>
+          <h2 class="f4 open-sans pa0">Press</h2>
+          <ul class="list pa0 flex flex-column">
+            {{ range sort $.Site.Data.press "year" "desc"}}
+              {{ partial "spoken-written.html" . }}
+            {{ end }}
+          </ul>
+        </li>
+        <li class="w-40">
+          <h2 class="f4 open-sans pa0">Writing</h2>
           <ul class="list pa0 flex flex-column">
             {{ range sort $.Site.Data.written "year" "desc"}}
               {{ partial "spoken-written.html" . }}
