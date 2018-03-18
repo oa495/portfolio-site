@@ -1,5 +1,4 @@
-baseURL = "https://omayeli.com"
+baseURL = "https://omayeli.com/"
 languageCode = "en-us"
 title = "YellzHeard"
-canonifyURLs = true
 
