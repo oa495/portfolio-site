@@ -1,3 +1,5 @@
 baseURL = "http://omayeli.com"
 languageCode = "en-us"
 title = "YellzHeard"
+canonifyURLs = true
+

@@ -32,8 +32,7 @@ a, a:visited {
 .mv1 { margin-top: .25rem; margin-bottom: .25rem; }
 .mv2 { margin-top: .5rem; margin-bottom: .5rem; }
 
-/* links */
-
+.tc { text-align: center; }
 
 .measure { max-width: 30em; }
 .no-underline { text-decoration: none; }
@@ -75,6 +74,7 @@ a, a:visited {
 .vh-100 { height: 100vh; }
 .w-40 { width: 40%; }
 .w-50 {  width:  50%; }
+.mw7  {  max-width: 48rem; }
 
 @media screen and (max-width: 48em) {
  .w-100-ns { width: 100%; }
@@ -126,4 +126,8 @@ a, a:visited {
 .right-container {
   left: 50%;
   position: fixed;
+}
+.blog-content {
+  margin: auto;
+  line-height: 1.5;
 }

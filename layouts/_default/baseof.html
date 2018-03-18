@@ -1,21 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    {{ partial "og-card" . }}
-    <title>{{ block "title" . }}
-      {{ .Site.Title }}
-    {{ end }}</title>
-    <link rel="icon" type="image/png" href="images/logo.png">
-    <link href="https://fonts.googleapis.com/css?family=Barlow:300|Open+Sans+Condensed:700" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-  </head>
-  <body class="white barlow bg-black">
-    {{ block "main" . }}
-      <!-- The part of the page that begins to differ between templates -->
-    {{ end }}
-  </body>
-  <script type="text/javascript" src="js/fabric.min.js"></script>
-  <script type="text/javascript" src="js/script.js"></script>
-</html>
+{{ partial "header.html" . }}
+<body class="white barlow bg-black">
+  {{ block "main" . }}
+    <!-- The part of the page that begins to differ between templates -->
+  {{ end }}
+{{ partial "footer.html" . }}
+

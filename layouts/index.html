@@ -30,6 +30,7 @@
         </li>
         <li class="w-40">
           <h2 class="f4 open-sans pa0">Writing</h2>
+          {{ partial "blog-list.html" . }}
           <ul class="list pa0 flex flex-column">
             {{ range sort $.Site.Data.written "year" "desc"}}
               {{ partial "spoken-written.html" . }}
