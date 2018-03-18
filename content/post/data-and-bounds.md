@@ -1,6 +1,6 @@
 ---
 title: "Data and Bounds"
-date: 2018-03-18T13:07:28-04:00
+date: 2018-03-18T17:20:54-04:00
 draft: false
 ---
 
