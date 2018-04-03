@@ -1,20 +1,38 @@
 [	
 	{
+		"title": "Alternate Digital Realities",
+		"where": "Are.na",
+		"year": "2018",
+		"url": "https://www.are.na/blog/case%20study/2018/04/03/alternate-digital-realities.html"
+	},
+	{
+		"title": "Spring 2018: Week 6",
+		"where": "School of Poetic Computation on Medium",
+		"year": "2018",
+		"url": "https://medium.com/sfpc/spring-2018-week-6-d457217ba2b7"
+	},
+	{
+		"title": "Spring 2018: Week 5",
+		"where": "School of Poetic Computation on Medium",
+		"year": "2018",
+		"url": "https://medium.com/sfpc/spring-2018-week-5-36df8924e06e"
+	},
+	{
 		"title": "Creating a Parking Game With the HTML Drag and Drop API",
 		"where": "CSS-Tricks",
 		"year": "2018",
 		"url": "https://css-tricks.com/creating-a-parking-game-with-the-html-drag-and-drop-api/"
 	},
 	{
-		"title": "Spring 2018: Week 1",
-		"where": "School of Poetic Computation on Medium",
-		"year": "2018",
-		"url": "https://medium.com/sfpc/by-yeli-student-of-sfpc-spring-2018-e007cf28ccdb"
-	},
-	{
 		"title": "Spring 2018: Week 2",
 		"where": "School of Poetic Computation on Medium",
 		"year": "2018",
 		"url": "https://medium.com/sfpc/spring-2018-week-2-8539ec15443"
+	}
+	{
+		"title": "Spring 2018: Week 1",
+		"where": "School of Poetic Computation on Medium",
+		"year": "2018",
+		"url": "https://medium.com/sfpc/by-yeli-student-of-sfpc-spring-2018-e007cf28ccdb"
 	}
 ]
