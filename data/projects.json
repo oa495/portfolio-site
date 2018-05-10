@@ -1,5 +1,17 @@
 [
 	{
+		"title": "Art Connoisseur",
+		"description": "A bot that interprets art from Artsy.",
+		"year": "2018",
+		"url": "https://twitter.com/ArtConnoisseur_"
+	},
+	{
+		"title": "OpenFrameworks Experiments",
+		"description": "A series of interactive visuals made with OpenFrameworks.",
+		"year": "2018",
+		"url": "https://github.com/oa495/of-experiments"
+	},
+	{
 		"title": "Flatline",
 		"description": "A visualization of your social media presence as an electrocardiogram.",
 		"year": "2016",
