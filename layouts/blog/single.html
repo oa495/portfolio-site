@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <div class="container">
+	<section class="w-25 fl scroll">
+		<h2 class="f4 open-sans"> My blog </h2>
+		{{ partial "blog/blog-list.html" . }}
+	</section>
+	<section>
+	    <h3 class="tc">{{ .Title }}<br> <small>{{ .Description }}</small></h3>
+	    <hr>
+	    <section class="blog-content mw7">
+	      {{ .Content }}
+	    </section>
+	    <ul class="list ma0 fr">
+	          {{ partial "links.html" . }}
+	          <li>{{ partial "home-logo.html" . }}</li>
+	    </ul>
+	</section>
+  </div>
+{{ end }}

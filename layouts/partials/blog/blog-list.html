@@ -1,0 +1,8 @@
+<ul class="blog-list list">
+  <!-- Ranges through content/post/*.md -->
+  {{ range first 10 .Data.Pages }}
+      <li class="ph4-ns">
+          <span class="dib f6 mr4">{{.Date.Format "Jan 2, 2006"}}</span> <a class="w-fit bb b--white animate-white no-underline open-sans mv1" href="{{.Permalink}}">{{.Title}}</a>
+      </li>
+  {{ end }}
+</ul>
