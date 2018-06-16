@@ -1,5 +1,11 @@
 [
 	{
+		"title": "Face the Music",
+		"description": "Make music with your facial expressions.",
+		"year": "2018",
+		"url": "https://face-instrument.glitch.me/"
+	},
+	{
 		"title": "Art Connoisseur",
 		"description": "A bot that interprets art from Artsy.",
 		"year": "2018",
@@ -75,7 +81,7 @@
 		"imgUrl": "images/henrietta.png",
 		"altText": "Henrietta project homepage",
 		"url": "http://oa495.github.io/henrietta/",
-		"tags": ["static", "website"]		
+		"tags": ["static", "website"]
 	},
 	{
 		"title": "Startup Week",
@@ -84,7 +90,7 @@
 		"imgUrl": "images/startupweek.png",
 		"altText": "Startupweek landing page",
 		"url": "http://s2016.nyusw.com/",
-		"tags": ["visual", "techatnyu"]		
+		"tags": ["visual", "techatnyu"]
 	},
 	{
 		"title": "Tech@NYU Calendar",
@@ -93,6 +99,6 @@
 		"imgUrl": "images/techatnyu_cal.png",
 		"altText": "Tech@NYU Calendar homepage",
 		"url": "http://cal.techatnyu.org/",
-		"tags": ["visual", "techatnyu"]	
+		"tags": ["visual", "techatnyu"]
 	}
 ]
