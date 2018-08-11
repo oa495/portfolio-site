@@ -19,6 +19,10 @@
 	],
 	"otherLinks": [
 		{
+			"title": "Speaker Deck",
+			"url": "https://speakerdeck.com/oa495"
+		},
+		{
 			"title": "goodreads",
 			"url": "https://www.goodreads.com/user/show/56164933-omayeli-arenyeka"
 		},
@@ -62,8 +66,5 @@
 			"name": "Control Group / Intersection",
 			"url": "https://www.intersection.com"
 		}
-	],
-	"playingWith": [
-		{ "name": "twitter bots", "url": "https://twitter.com/EvenItBot" }, { "name": "panda for data analysis" }
 	]
 }

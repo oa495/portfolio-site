@@ -4,7 +4,6 @@
         <h1 class="f2 lh-title open-sans">Hi, my name is Yeli.</h1>
         <ul class="list fr ma0">
           {{ partial "links.html" . }}
-          <li><a class="animate-white bb b--white no-underline" href="{{.Site.BaseURL}}/blog">Blog</a></li>
         </ul>
         {{ partial "bio.html" . }}
       </section>
@@ -14,7 +13,7 @@
       </section>
       <ul class="lh-copy list flex justify-between pa0 ma0 bg-black flex-wrap">
         <li class="w-40">
-          <h2 class="f4 open-sans pa0">Talks</h2>
+          <h2 class="f4 open-sans pa0"><a href="https://speakerdeck.com/oa495">Talks</a></h2>
           <ul class="list pa0 flex flex-column">
             {{ range sort $.Site.Data.talks "year" "desc"}}
               {{ partial "spoken-written.html" . }}
