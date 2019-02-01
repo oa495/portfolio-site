@@ -41,6 +41,10 @@
 	],
 	"alum": [
 		{
+			"name": "Recurse Center",
+			"url": "https://www.recurse.com/"
+		},
+		{
 			"name": "School of Poetic Computation",
 			"url": "https://sfpc.io"
 		},
