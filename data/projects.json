@@ -1,4 +1,10 @@
 [
+        {
+		"title": "The Gendered Project",
+		"description": "A library of gendered words.",
+		"year": "2019",
+		"url": "https://genderedproject.org/"
+	},
 	{
 		"title": "Face the Music",
 		"description": "Make music with your facial expressions.",
