@@ -1,9 +1,8 @@
 {{ $prevWork := ($.Site.Data.links.prevWork) }}
 {{ $lenPrevWork := (len $prevWork) }}
 <div class="f5 lh-copy measure">
- 	<p>Or Omayeli if you're feeling brave. I’m a artist and technologist from Nigeria currently working at LinkedIn as a 
-		Software Engineer. </p>
-	<p>I graduated from New York University in 2017 with an individualized degree in Computer Science, Art and Design. I have previously worked at {{ range $index, $element := $prevWork }}
+ 	<p>I’m a artist and technologist from Nigeria. </p>
+<!-- 	<p>I graduated from New York University in 2017 with an individualized degree in Computer Science, Art and Design. I have previously worked at {{ range $index, $element := $prevWork }}
 		{{ if eq (add $index 1) $lenPrevWork }}
 			and <a class="animate-white bb b--white no-underline" href="{{ .url }}">{{ .name }}</a>.
 		{{ else }}
@@ -11,6 +10,6 @@
 		{{ end }}
 	{{ end }}
 	&nbsp;{{ partial "bio_data/alum.html" . }}
-	<p>{{ partial "bio_data/other_links.html" . }}</p>
+	<p>{{ partial "bio_data/other_links.html" . }}</p> -->
 </div>
 
