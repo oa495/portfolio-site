@@ -1,5 +1,35 @@
 [
         {
+		"title": "Grief Found Me",
+		"description": "A digital poem exploring grief",
+		"year": "2025",
+		"url": "https://crawlspace.cool/grief-found-me"
+	},
+        {
+		"title": "Interrogating Computational Approaches to Art",
+		"description": "A digital poem exploring grief",
+		"year": "2024",
+		"url": "https://sfpc.study/sessions/spring-24/icaa"
+	},
+	{
+		"title": "Glitched Google Docs",
+		"description": "Chrome extension for glitching google docs. The glitched google docs represented a three-layered way of thinking and talking and critiquing new media art -- by looking at the object/artwork first, then what it's built in/upon, then the context of our society.",
+		"year": "2024",
+		"url": "https://drive.google.com/file/d/12xHRQzcwRyA2vPkoJj2Ic3MI9eBIK4Hu/view?usp=sharing"
+	},
+	{
+		"title": "Nigerian Women's Names in Afrobeats",
+		"description": "Cataloging the most used nigerian names in Afrobeats songs.",
+		"year": "2022",
+		"url": "https://nigerian-women-in-afrobeats.netlify.app/"
+	},
+	{
+		"title": "Called It Quits!",
+		"description": "Announce your breakup like a celebrity mag!",
+		"year": "2021",
+		"url": "https://x.com/YellzHeard/status/1468708791726264327/photo/1"
+	},
+	{
 		"title": "The Gendered Project",
 		"description": "A library of gendered words.",
 		"year": "2019",
