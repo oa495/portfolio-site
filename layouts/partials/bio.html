@@ -2,14 +2,8 @@
 {{ $lenPrevWork := (len $prevWork) }}
 <div class="f5 lh-copy measure">
  	<p>I’m a artist and technologist from Nigeria. </p>
-<!-- 	<p>I graduated from New York University in 2017 with an individualized degree in Computer Science, Art and Design. I have previously worked at {{ range $index, $element := $prevWork }}
-		{{ if eq (add $index 1) $lenPrevWork }}
-			and <a class="animate-white bb b--white no-underline" href="{{ .url }}">{{ .name }}</a>.
-		{{ else }}
-			<a class="animate-white bb b--white no-underline" href="{{ .url }}">{{ .name }}</a>, 
-		{{ end }}
-	{{ end }}
-	&nbsp;{{ partial "bio_data/alum.html" . }}
-	<p>{{ partial "bio_data/other_links.html" . }}</p> -->
+	<p>I graduated from New York University in 2017 with an individualized degree in Computer Science, Art and Design.</p>
+	{{ partial "bio_data/alum.html" . }}
+	<!-- <p>{{ partial "bio_data/other_links.html" . }}</p> -->
 </div>
 

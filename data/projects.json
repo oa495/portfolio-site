@@ -1,19 +1,25 @@
 [
         {
 		"title": "Grief Found Me",
-		"description": "A digital poem exploring grief",
+		"description": "A digital poem exploring grief.",
 		"year": "2025",
 		"url": "https://crawlspace.cool/grief-found-me"
 	},
         {
 		"title": "Interrogating Computational Approaches to Art",
-		"description": "A class taught at the School of Poetic Computation",
+		"description": "A class taught at the School of Poetic Computation.",
 		"year": "2024",
 		"url": "https://sfpc.study/sessions/spring-24/icaa"
 	},
 	{
+		"title": "The Gendered Project",
+		"description": "A library of gendered words.",
+		"year": "2019",
+		"url": "https://genderedproject.org/"
+	},
+	{
 		"title": "Glitched Google Docs",
-		"description": "Chrome extension for glitching google docs. The glitched google docs represented a three-layered way of thinking and talking and critiquing new media art -- by looking at the object/artwork first, then what it's built in/upon, then the context of our society.",
+		"description": "Chrome extension for glitching google docs.",
 		"year": "2024",
 		"url": "https://drive.google.com/file/d/12xHRQzcwRyA2vPkoJj2Ic3MI9eBIK4Hu/view?usp=sharing"
 	},
@@ -28,12 +34,6 @@
 		"description": "Announce your breakup like a celebrity mag!",
 		"year": "2021",
 		"url": "https://x.com/YellzHeard/status/1468708791726264327/photo/1"
-	},
-	{
-		"title": "The Gendered Project",
-		"description": "A library of gendered words.",
-		"year": "2019",
-		"url": "https://genderedproject.org/"
 	},
 	{
 		"title": "Face the Music",
