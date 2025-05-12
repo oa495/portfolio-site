@@ -36,6 +36,13 @@
 		"url": "https://x.com/YellzHeard/status/1468708791726264327/photo/1"
 	},
 	{
+		"title": "Tweeter or Retweeter?",
+		"description": "Tells you, based on your profile if you are a tweeter or retweeter.",
+		"year": "2018",
+		"url": "https://x.com/YellzHeard/status/971869580095361026/video/1",
+		"tags": ["website"]
+	},
+	{
 		"title": "Face the Music",
 		"description": "Make music with your facial expressions.",
 		"year": "2018",
@@ -47,29 +54,12 @@
 		"year": "2018",
 		"url": "https://twitter.com/ArtConnoisseur_"
 	},
+	
 	{
 		"title": "OpenFrameworks Experiments",
 		"description": "A series of interactive visuals made with OpenFrameworks.",
 		"year": "2018",
-		"url": "https://github.com/oa495/of-experiments"
-	},
-	{
-		"title": "Flatline",
-		"description": "A visualization of your social media presence as an electrocardiogram.",
-		"year": "2016",
-		"imgUrl": "images/flatline.png",
-		"altText": "Flatline electrocardiogram visualization",
-		"url": "https://flat-line.herokuapp.com",
-		"tags": ["webapp"]
-	},
-	{
-		"title": "On my Radar",
-		"description": "Visualization of your weekly schedule.",
-		"year": "2016",
-		"imgUrl": "images/onmyradar.png",
-		"altText": "On my radar landing page",
-		"url": "https://onmyradar.herokuapp.com",
-		"tags": ["webapp"]
+		"url": "https://x.com/YellzHeard/status/978754696763658241/video/1"
 	},
 	{
 		"title": "Can you leave work?",
@@ -90,6 +80,24 @@
 		"tags": ["static", "website"]
 	},
 	{
+		"title": "On my Radar",
+		"description": "Visualization of your weekly schedule.",
+		"year": "2016",
+		"imgUrl": "images/onmyradar.png",
+		"altText": "On my radar landing page",
+		"url": "https://x.com/YellzHeard/status/675049678304616448/photo/1",
+		"tags": ["webapp"]
+	},
+	{
+		"title": "Flatline",
+		"description": "A visualization of your social media presence as an electrocardiogram.",
+		"year": "2016",
+		"imgUrl": "images/flatline.png",
+		"altText": "Flatline electrocardiogram visualization",
+		"url": "https://x.com/YellzHeard/status/692054362517065728/photo/1",
+		"tags": ["webapp"]
+	},
+	{
 		"title": "My President Is",
 		"description": "A bot that tweets who or what my President is.",
 		"year": "2017",
@@ -102,13 +110,6 @@
 		"year": "2018",
 		"url": "https://twitter.com/Y_Under_YBot",
 		"tags": ["bot"]
-	},
-	{
-		"title": "Tweeter or Retweeter?",
-		"description": "Tells you, based on your profile if you are a tweeter or retweeter.",
-		"year": "2018",
-		"url": "https://twit-original.glitch.me/",
-		"tags": ["website"]
 	},
 	{
 		"title": "Henrietta",
